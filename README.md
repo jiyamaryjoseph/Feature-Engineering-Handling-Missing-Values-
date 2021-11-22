@@ -1,4 +1,4 @@
-# feature-engineering
+# Feature-Engineering
 #### The goal of feature engineering is simply to make your data better suited to the problem at hand.
    In Data Science, the performance of the model is depending on data preprocessing and data handling. Suppose if we build a model without Handling data, we got an accuracy of around 70%. By applying the Feature engineering on the same model there is a chance to increase the performance from 70% to more.
 
@@ -91,6 +91,12 @@ Correlation of the data is neglected
 ##### Cons:
 Is a very time consuming process and it can be critical in data mining where large databases are being extracted
 Choice of distance functions can be Euclidean, Manhattan etc. which is do not yield a robust result
+
+#### End of Distribution Imputation
+If there is suspicion that the missing value is not at random then capturing that information is important. In this scenario, one would want to replace missing data with values that are at the tails of the distribution of the variable. The advantage is that it is quick and captures the importance of missing values (if one suspects the missing data is valuable). On the flipside, performing this action may distort the variable, mask predictive power if missingness is not important, hide true outliers if the missing data is large or create an unintended outlier if N/As are small.  Once again, this method should be performed on the training set and propagated on the test set.  Since we know “Age” follows a normal distribution, outliers will be computed using the mean rather than the median.
+
+![image](https://user-images.githubusercontent.com/83010684/142810027-00a56e8a-7cde-4da4-9b29-065be83b07b5.png)
+
 
   ## 3* Handling imbalanced data
   ## 4* Handling outliers
