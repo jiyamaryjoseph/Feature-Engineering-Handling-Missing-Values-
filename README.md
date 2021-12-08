@@ -99,9 +99,19 @@ If there is suspicion that the missing value is not at random then capturing tha
 
 
   ## 3* Handling imbalanced data
+                  (ON ANOTHER REPOSITORY)
+  
   ## 4* Handling outliers
+                  (ON ANOTHER REPOSITORY)
+  
   ## 5* Binning
+                  (ON ANOTHER REPOSITORY)
+  
   ## 6* Encoding
+                  (ON ANOTHER REPOSITORY)
+  
   ## 7* Feature Scaling
+                  (ON ANOTHER REPOSITORY)
+  
   
   reference:https://www.analyticsvidhya.com/blog/2021/03/step-by-step-process-of-feature-engineering-for-machine-learning-algorithms-in-data-science/
